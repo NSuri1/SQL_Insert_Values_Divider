@@ -10,8 +10,8 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		final String insert = "INSERT INTO USER_DETAILS VALUES ";
-		File file = new File("values.txt");
-		File file2 = new File("sql.txt");
+		File file = new File("data/values.txt");
+		File file2 = new File("data/sql.txt");
 		BufferedWriter writer = new BufferedWriter(new FileWriter(file2));
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 		String value;
